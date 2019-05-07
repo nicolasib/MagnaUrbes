@@ -1,0 +1,560 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+#mapa{
+    width: 70vw;
+}
+
+
+
+.mapholder{
+    width: 100%;
+    background-color: #76b7dd;
+    display: flex;
+    justify-content: center;
+    padding: 4ch 0;
+
+}
+
+
+svg path#Sudao:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Libia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: rgb(255, 255, 0);
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Egito:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Argelia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Tunisia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Marrocos:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#SaaraOcidental:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Israel:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Libano:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Jordania:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#ArabiaSaudita:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Iemen:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Oma:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#EmiradosArabes:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Catar:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Ira:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Afeganistao:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Kuwait:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Iraque:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Turquia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Siria:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Ucrania:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Bielorussia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Polonia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Romenia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Bulgaria:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Alemanha:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Italia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Franca:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Suica:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Austria:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#ReinoUnido:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Irlanda:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Espanha:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Portugal:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#RepTcheca:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Hungria:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Eslovaquia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Moldavia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Grecia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Belgica:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Holanda:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Macedonia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Servia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Albania:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Montenegro:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Bosnia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Croacia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}
+
+svg path#Eslovenia:hover{
+
+    box-shadow: 0px 0px 8px #000;
+    z-index: 99;
+    filter: url("#f3");
+    fill: red;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+
+}

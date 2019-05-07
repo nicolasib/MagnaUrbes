@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+@media(max-width: 488px){
+    #cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        flex-wrap: wrap;
+    }
+    #cabecalho > button{
+        margin: 1ch 0;
+    }
+    .sectionMapa > h3{
+        margin: 1ch auto 1ch auto;
+    }
+    #mapa > svg{
+        width: 700px;
+    }
+    .mapholder{
+        overflow: scroll;
+    }
+}
+
+#cabecalho > button{
+    border-radius: 10px;
+    border: 0;
+    background-color: goldenrod;
+    padding: 0 1em;
+    color: #fff;
+    transition: ease-in-out 200ms;
+}
+
+#cabecalho > button:hover{
+    background-color: #ffd800;
+    color: #000;
+    transition: ease-in-out 200ms;
+}
+
+
+#cabecalho > h1{
+    margin: 0;
+    font-weight: bold;
+}
+
+.sectionMapa{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionMapa > h3{
+    margin: 1ch 0 1ch 1ch;
+    font-weight: bolder;
+}
+
+.modal-title{
+    font-weight: bolder !important;
+}
+
+.btn-selecionar{
+    background-color: #ffd800;
+}
+
+.btn-sair{
+    border: 1px solid #aaa;
+    color: #aaa;
+}
+
+.lista-seculos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seculos{
+    text-align: center;
+    padding: 1ch;
+}
