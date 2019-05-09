@@ -1,84 +1,6 @@
 <?php
     include_once("php/funcoes.php");
 ?>
-<!-- 
-    <form style=" margin-top: 0.5%" method="post" action="index.php">
-                                <input type="radio" name="seculo" value="-70"> LXX a.C   
-                                <input type="radio" name="seculo" value="masculino"> LXV a.C   
-                                <input type="radio" name="seculo" value="masculino"> L a.C   
-                                <input type="radio" name="seculo" value="masculino"> XL a.C<br>
-                                <input type="radio" name="seculo" value="masculino"> XXXVIII a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXXVI a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXXV a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXXIV a.C<br>
-                                <input type="radio" name="seculo" value="masculino"> XXXIII a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXXII a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXXI a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXX a.C<br>
-                                <input type="radio" name="seculo" value="masculino"> XXVIII a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXV a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXIV a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXIII a.C<br>
-                                <input type="radio" name="seculo" value="masculino"> XXII a.C   
-                                <input type="radio" name="seculo" value="masculino"> XXI a.C   
-                                <input type="radio" name="sexo" value="masculino"> XIX a.C   
-                                <input type="radio" name="sexo" value="masculino"> XVIII a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> LXX a.C   
-                                <input type="radio" name="sexo" value="masculino"> LXV a.C   
-                                <input type="radio" name="sexo" value="masculino"> L a.C   
-                                <input type="radio" name="sexo" value="masculino"> XL a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XXXVIII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXXVI a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXXV a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXXIV a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XXXIII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXXII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXXI a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXX a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XXVIII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXV a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXIV a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXIII a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XXII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XXI a.C   
-                                <input type="radio" name="sexo" value="masculino"> XIX a.C   
-                                <input type="radio" name="sexo" value="masculino"> XVIII a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XVII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XVI a.C   
-                                <input type="radio" name="sexo" value="masculino"> XV a.C   
-                                <input type="radio" name="sexo" value="masculino"> XIV a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XIII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XII a.C   
-                                <input type="radio" name="sexo" value="masculino"> XI a.C   
-                                <input type="radio" name="sexo" value="masculino"> X a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> IX a.C   
-                                <input type="radio" name="sexo" value="masculino"> VIII a.C   
-                                <input type="radio" name="sexo" value="masculino"> VII a.C   
-                                <input type="radio" name="sexo" value="masculino"> VI a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> V a.C   
-                                <input type="radio" name="sexo" value="masculino"> IV a.C   
-                                <input type="radio" name="sexo" value="masculino"> III a.C   
-                                <input type="radio" name="sexo" value="masculino"> II a.C<br>
-                                <input type="radio" name="sexo" value="masculino"> I a.C   
-                                <input type="radio" name="sexo" value="masculino"> I d.C   
-                                <input type="radio" name="sexo" value="masculino"> II d.C   
-                                <input type="radio" name="sexo" value="masculino"> III d.C<br>
-                                <input type="radio" name="sexo" value="masculino"> IV d.C   
-                                <input type="radio" name="sexo" value="masculino"> V d.C   
-                                <input type="radio" name="sexo" value="masculino"> VI d.C   
-                                <input type="radio" name="sexo" value="masculino"> VII d.C<br>
-                                <input type="radio" name="sexo" value="masculino"> VIII d.C   
-                                <input type="radio" name="sexo" value="masculino"> IX d.C   
-                                <input type="radio" name="sexo" value="masculino"> X d.C   
-                                <input type="radio" name="sexo" value="masculino"> XI d.C<br>
-                                <input type="radio" name="sexo" value="masculino"> XII d.C   
-                                <input type="radio" name="sexo" value="masculino"> XIII d.C   
-                                <input type="radio" name="sexo" value="masculino"> XIV d.C   
-                                <input type="submit">
-                            </form>
-
--->
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -105,23 +27,62 @@
                 </div>
                 
                 <div class="menu-formulario">
-                    <form style=" margin-top: 0.5%" method="post" action="index.php" class="form-sec">
+                    <form method="post" action="index.php" class="form-sec">
                         <div class="inputs">
+                            <h4>Antes de Cristo</h4>
                             <div class="item"><input type="radio" name="seculo" value="-70" required> <label>LXX a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>LXV a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>L a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XL a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXVIII a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXVI a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXV a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXIV a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXIII a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXII a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXXI a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXX a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXVIII a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXV a.C</label></div>  
-                            <div class="item"><input type="radio" name="seculo" value="-70"> <label>XXIV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-65"> <label>LXV a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-50"> <label>L a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-40"> <label>XL a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-38"> <label>XXXVIII a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-36"> <label>XXXVI a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-35"> <label>XXXV a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-34"> <label>XXXIV a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-33"> <label>XXXIII a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-32"> <label>XXXII a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-31"> <label>XXXI a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-30"> <label>XXX a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-28"> <label>XXVIII a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-25"> <label>XXV a.C</label></div>  
+                            <div class="item"><input type="radio" name="seculo" value="-24"> <label>XXIV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-23"> <label>XXIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-22"> <label>XXII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-21"> <label>XXI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-19"> <label>XIX a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-18"> <label>XVIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-17"> <label>XVII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-16"> <label>XVI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-15"> <label>XV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-14"> <label>XIV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-13"> <label>XIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-12"> <label>XII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-11"> <label>XI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-10"> <label>X a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-9"> <label>IX a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-8"> <label>VIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-7"> <label>VII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-6"> <label>VI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-5"> <label>V a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-4"> <label>IV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-3"> <label>III a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-2"> <label>II a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="-1"> <label>I a.C</label></div>
+                            <h4>Depois de Cristo</h4>
+                            <div class="item"><input type="radio" name="seculo" value="1"> <label>I a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="2"> <label>II a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="3"> <label>III a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="4"> <label>IV a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="5"> <label>V a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="6"> <label>VI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="7"> <label>VII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="8"> <label>VIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="9"> <label>IX a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="10"> <label>X a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="11"> <label>XI a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="12"> <label>XII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="13"> <label>XIII a.C</label></div>
+                            <div class="item"><input type="radio" name="seculo" value="14"> <label>XIV a.C</label></div>
+
                         </div>
                         
                         <button type="submit" class="btn-submit">Selecionar</button>
