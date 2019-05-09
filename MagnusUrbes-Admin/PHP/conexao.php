@@ -1,8 +1,8 @@
 <?php
     $servidor = "localhost";
     $usuario = "root";
-    $senha = "root";
-    $banco = "magnusurbes";
+    $senha = "";
+    $banco = "magnaurbes";
 
     //Linha para conexão ao Banco
     $conector = new mysqli($servidor,$usuario,$senha,$banco);

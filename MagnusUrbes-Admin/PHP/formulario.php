@@ -6,7 +6,7 @@
         $cidade = $_POST["cidade"];
         $populacao = $_POST["populacao"];
 
-        $sql = "INSERT INTO MAGNUS(seculoBD, paisBD, cidadeBD, populacaoBD) VALUES (?, ?, ?, ?)";
+        $sql = "INSERT INTO MAGNA(seculoBD, paisBD, cidadeBD, populacaoBD) VALUES (?, ?, ?, ?)";
         $consulta = $conector->prepare($sql);
         $consulta->bind_param("ssss",$seculo,$pais,$cidade,$populacao);
         $consulta->execute();
@@ -41,7 +41,7 @@
                 </div>
                 <div class="form-group">
                     <label for="populacao">População: </label>
-                    <input maxlength="20" type="text" class="form-control" name="populacao" placeholder="População" required>
+                    <input maxlength="45" type="text" class="form-control" name="populacao" placeholder="População" required>
                 </div>
                 <button type="submit" class="btn btn-dark">Enviar Dados</button>
             </form><br><br>

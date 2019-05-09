@@ -1,7 +1,7 @@
 <?php
 
     include "conexao.php";
-    $sql = "SELECT * FROM MAGNUS";
+    $sql = "SELECT * FROM MAGNA";
     $consulta = $conector->query($sql);
     echo "<!DOCTYPE html>
             <html>

@@ -3,7 +3,7 @@
         $servidor = "localhost";
         $usuario = "root";
         $senha = "root";
-        $banco = "magnusurbes";
+        $banco = "magnaurbes";
 
         //Linha para conexão ao Banco
         $conector = new mysqli($servidor,$usuario,$senha,$banco);
@@ -15,7 +15,7 @@
 
     function verificarMapa($seculo, $pais){
         $conector = conectaBanco();
-        $sql = "SELECT * FROM MAGNUS WHERE seculoBD = '$seculo' AND paisBD = '$pais'";
+        $sql = "SELECT * FROM MAGNA WHERE seculoBD = '$seculo' AND paisBD = '$pais'";
         $consulta = $conector->query($sql);
 
         if($consulta->num_rows > 0){
