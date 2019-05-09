@@ -1,7 +1,7 @@
 <?php
     $servidor = "localhost";
     $usuario = "root";
-    $senha = "";
+    $senha = "root"; //CADA UM TEM UMA SENHA
     $banco = "magnaurbes";
 
     //Linha para conexão ao Banco

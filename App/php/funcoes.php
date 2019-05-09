@@ -2,7 +2,7 @@
     function conectaBanco(){
         $servidor = "localhost";
         $usuario = "root";
-        $senha = "root";
+        $senha = "root"; //CADA UM TEM UMA SENHA
         $banco = "magnaurbes";
 
         //Linha para conexão ao Banco
