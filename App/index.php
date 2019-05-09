@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/main.css">
-        <title>Magna Urbes</title>
+        <title>MagnaUrbes</title>
         
     </head>
     
@@ -93,7 +93,7 @@
         </nav>
         <main id="panel" class="panel slideout-panel slideout-panel-left">
             <header id="cabecalho" class="panel-header">
-                <h1>Magna Urbes</h1>
+                <h1>MagnaUrbes</h1>
                 <button class="toggle-button js-slideout-toggle">Selecione o século</button>
             </header>
             <section class="sectionMapa">
