@@ -19,10 +19,10 @@
         $consulta = $conector->query($sql);
 
         if($consulta->num_rows > 0){
-            echo"";
+            echo"rgb(163, 91, 24)";
         }
         else{
-            echo"grey";
+            echo"rgba(163, 91, 24, 0.6)";
         }
     }
 ?>

@@ -38,6 +38,9 @@ body{
     .mapholder{
         overflow: scroll;
     }
+    .sectionMapa{
+        background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/04/51/07/28585e126e77130.jpg'); background-repeat: no-repeat; background-size: cover;
+    }
 }
 
 #cabecalho > button{
@@ -61,10 +64,14 @@ body{
     margin: 0;
     font-weight: bold;
 }
+.mapholder{
+    background-color: #00000000;
+}
 
 .sectionMapa{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+    background: url('https://previews.123rf.com/images/andreykuzmin/andreykuzmin1509/andreykuzmin150900015/45585916-nautical-map-with-torn-edges-isolated-on-white.jpg'); background-repeat: no-repeat; background-size: cover;
 }
 
 .sectionMapa > h3{
